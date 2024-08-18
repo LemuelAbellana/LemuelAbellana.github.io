@@ -1,5 +1,5 @@
 body {
-    background-color: #f0f8ff; /* This is the color for the background below the top section */
+    background-color: #f0f8ff; 
     margin: 0;
     padding: 0;
 }
@@ -52,4 +52,39 @@ main{
     margin-right: 6cm;
     margin-left: 6cm;
     margin-bottom: 2cm;
+}
+.SecondList{
+    font-size: 24px;
+    font-family: Arial;
+    text-align: left;
+}
+.SchoolProjects{
+    font-size: 24px;
+    font-family: Arial;
+    padding: 2rem;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-right: 6cm;
+    margin-left: 6cm;
+    margin-bottom: 2cm;
+}
+.ThirdList{
+    font-size: 24px;
+    font-family: Arial;
+    text-align: left;
+}
+.Talents{
+    font-size: 24px;
+    font-family: Arial;
+    padding: 2rem;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-right: 6cm;
+    margin-left: 6cm;
+    margin-bottom: 2cm;
+}
+.FourthList{
+    font-size: 24px;
+    font-family: Arial;
+    text-align: left;
 }

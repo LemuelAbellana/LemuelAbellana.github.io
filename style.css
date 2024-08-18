@@ -43,3 +43,13 @@ main{
     font-family: Arial;
     text-align: left;
 }
+.favorites{
+    font-size: 24px;
+    font-family: Arial;
+    padding: 2rem;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-right: 6cm;
+    margin-left: 6cm;
+    margin-bottom: 2cm;
+}

@@ -1,0 +1,45 @@
+body {
+    background-color: #f0f8ff; /* This is the color for the background below the top section */
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: antiquewhite;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+}
+.About{
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+}
+main{
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.Profile{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    align-items: center;
+}
+.aboutme{
+    font-size: 24px;
+    font-family: Arial;
+    padding: 2rem;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-right: 6cm;
+    margin-left: 6cm;
+    margin-bottom: 2cm;
+}
+.firstlist{
+    font-size: 24px;
+    font-family: Arial;
+    text-align: left;
+}

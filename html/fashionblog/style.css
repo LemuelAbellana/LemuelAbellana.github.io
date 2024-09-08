@@ -22,3 +22,69 @@
 .SecondPicture{
     text-align: center;
 }
+
+.SecondText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+.SecondHeader{
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ThirdPicture{
+    text-align: center;
+}
+
+.ThirdText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+.ThirdHeader{
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FourthPic{
+    text-align: center;
+}
+
+.FourthText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+.FourthHeader{
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.FirstList{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        list-style-position: inside; 
+        width: fit-content;          
+        margin: 0 auto;              
+        padding: 0;                  
+        text-align: center;           
+}
+
+#contact{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}

@@ -1,8 +1,7 @@
 .Isa {
     text-align: center;
     padding: 1rem;
-    background-color: antiquewhite;
-    margin: 0;
+    background-color: antiquewhite;  
 }
 
 .ImageIsa {
@@ -18,4 +17,8 @@
     text-align: center;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.SecondPicture{
+    text-align: center;
 }

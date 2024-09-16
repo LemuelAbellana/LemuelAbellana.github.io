@@ -2,6 +2,8 @@ body {
     background-color: #f0f8ff; 
     margin: 0;
     padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1472289065668-ce650ac443d2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
 }
 
 header{
@@ -38,10 +40,12 @@ main{
     margin-left: 6cm;
     margin-bottom: 2cm;
 }
-.firstlist{
+.parag1{
     font-size: 24px;
     font-family: Arial;
     text-align: left;
+    line-height: 2.5rem;
+    text-align: justify;
 }
 .favorites{
     font-size: 24px;
@@ -121,3 +125,215 @@ main{
     height: 300px;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.Guitar{
+    height: 70px;
+  }
+
+.Basketball{
+    height: 70px;
+  }
+
+  video{
+    width: 600px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .Facebook {
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+  }
+  .Facebook::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+  .Facebook::before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #FF0000, #FF7300, #FFFB00, #48FF00,
+      #00FFD5, #002BFF, #FF00C8, #FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height:  calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+  }
+  
+  @keyframes glowing {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+  }
+  
+  
+  .Facebook:hover::before {
+    opacity: 1;
+  }
+  
+  .Facebook:active:after {
+    background: transparent;
+  }
+  
+  .Facebook:active {
+    color: #000;
+    font-weight: bold;
+  }
+
+  .Github {
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+  }
+  .Github::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+ 
+  .Github::before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #FF0000, #FF7300, #FFFB00, #48FF00,
+      #00FFD5, #002BFF, #FF00C8, #FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height:  calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+  }
+  
+  @keyframes glowing {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+  }
+  
+  
+  .Github:hover::before {
+    opacity: 1;
+  }
+  
+  .Github:active:after {
+    background: transparent;
+  }
+  
+  .Github:active {
+    color: #000;
+    font-weight: bold;
+  }
+
+  .Instagram {
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+  }
+  .Instagram::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+ 
+  .Instagram::before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #FF0000, #FF7300, #FFFB00, #48FF00,
+      #00FFD5, #002BFF, #FF00C8, #FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height:  calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+  }
+  
+  @keyframes glowing {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+  }
+  
+  
+  .Instagram:hover::before {
+    opacity: 1;
+  }
+  
+  .Instagram:active:after {
+    background: transparent;
+  }
+  
+  .Instagram:active {
+    color: #000;
+    font-weight: bold;
+  }

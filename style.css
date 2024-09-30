@@ -675,3 +675,9 @@ td {
 .contact-right h3{
     font-size: 15px;
 }
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}

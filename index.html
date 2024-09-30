@@ -3,111 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>About Me</title>
+    <title>Portfolio Website</title>
   </head>
-
   <body>
     <header>
-      <h1 class="About"><strong>My Portfolio</strong></h1>
+      <a href="https://www.uic.edu.ph/" class="logo" target="_blank"
+        ><img src="uic-logo2.png" alt="UIC LOGO" class="uic"
+      /></a>
+      <nav>
+        <a href="index.html" class="homepage"> Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="talents.html">Talents</a>
+        <a href="favorites.html">Favorites</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact Me</a>
+      </nav>
     </header>
-    <div>
-      <div>
-        <main>
-          <img src="SENGOMZ.jpg" alt="My Profile Picture" class="Profile" />
-        </main>
+    <section class="home">
+      <div class="home-img">
+        <img
+          src="SENGOMZ.jpg"
+          alt="Picture of Lemuel Abellana"
+          class="SenGomz"
+        />
       </div>
-      <div class="aboutme">
-        <h2 class="me"><ins>About Me</ins></h2>
-        <p class="parag1">
-          Born on February 1, 2004 in Davao City, Philippines, I am currently a
-          second-year Bachelor of Science in Information Technology student at
-          the University of the Immaculate Conception. My journey is guided by a
-          strong focus on discovering my purpose and passion in life. I
-          constantly strive for self-improvement, believing that growth is
-          essential. As I progress through my studies, I aspire to become either
-          a Software Engineer or a Data Scientist. The world of programming and
-          data science captivates me, and I find it both satisfying and
-          incredibly useful for business endeavors.
+      <div class="home-content">
+        <h1 class="lems">Hi, It's <span>Lems!</span></h1>
+        <h3 class="typing-text">I'm a <span></span></h3>
+        <p class="intro">
+          My name is Lemuel G. Abellana, a 20-year-old from Davao City. I am
+          currently pursuing a Bachelor of Science in Information Technology
+          (BSIT) at the University of the Immaculate Conception
         </p>
-      </div>
-      <div class="favorites">
-        <h2 class="MyFavorites"><ins>Favorites</ins></h2>
-        <ul class="SecondList">
-          <li><strong>Favorite Food: </strong>Chicken Breast</li>
-          <li><strong>Hobbies: </strong>Reading Books and Going to Gym</li>
-          <li><strong>Favorite Basketball Player: </strong>Kobe Bryant</li>
-          <li><strong>Favorite Valorant Player: </strong>TenZ</li>
-        </ul>
-        <p><strong>Favorite Music: </strong>The Wind</p>
-        <iframe
-          class="spotify-frame"
-          src="https://open.spotify.com/embed/track/0wEo4mwfs6tXYgCem9m9wP?utm_source=generator"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
-        <p><strong>Favorite Music Video:</strong></p>
-        <video src="MorningHasBroken.mp4" controls></video>
-      </div>
-      <div class="SchoolProjects">
-        <h2 class="mySchoolProjects"><ins>School Projects</ins></h2>
-        <ul class="ThirdList">
-          <li><strong>Book-It-Now:</strong>Booking System for ICTDU</li>
-        </ul>
-      </div>
-      <div class="Talents">
-        <h2 class="MyTalents"><ins>Talents</ins></h2>
-        <table>
-          <tr>
-            <th>Talent Name</th>
-            <th>Talent Picture</th>
-          </tr>
-          <tr>
-            <td>Playing Songs on Guitar (Fingerstyle)</td>
-            <td>
-              <img
-                src="https://cdn.mos.cms.futurecdn.net/Qn7QrZXdZRpccvRfMnu4vX-1200-80.jpg"
-                alt="Fingerstyle Guitar"
-                class="Guitar"
-              />
-            </td>
-          </tr>
-          <tr>
-            <td>Playing Basketball</td>
-            <td>
-              <img
-                src="https://static.owayo-cdn.com/newhp/img/magazin/basketballstatistikEN/basketball-statistics-670.jpg"
-                alt="Basketball"
-                class="Basketball"
-              />
-            </td>
-          </tr>
-        </table>
-      </div>
-      <div class="Socials">
-        <h2 class="mySocialMedia"><ins>Contact Me</ins></h2>
-
-        <a href="https://www.facebook.com" target="_blank" class="Facebook"
-          >Facebook</a
+        <div class="social-icons">
+          <a href="https://www.facebook.com/sen.gomz" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://github.com/LemuelAbellana" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://www.instagram.com/sen_gomz/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <a href="html/fashionblog/index.html" class="btn" target="_blank"
+          >Fashion Blog</a
         >
-        <a href="https://github.com" target="_blank" class="Github">Github</a>
-        <a href="https://instagram.com" target="_blank" class="Instagram"
-          >Instagram</a
-        >
-        <form action="index.html" method="get">
-          <br />
-          <label for="email">Contact Me By Entering Your Email</label>
-          <input type="email" id="email" required />
-          <button type="submit">Submit</button>
-        </form>
+        <a href="html/recipe/index.html" class="btn" target="_blank">Recipe</a>
+        <a href="html/woodruff/index.html" class="btn" target="_blank">Woodruff Portfolio</a>
       </div>
-      <div class="HTMLs">
-        <h2 class="myHTMLs"><ins>HTML Activities</ins></h2>
-        <a href="html/fashionblog/index.html">Link to Fashion Blog</a>
-        <br />
-        <a href="html/recipe/index.html">Link to Recipe</a>
-      </div>
-    </div>
+    </section>
   </body>
 </html>

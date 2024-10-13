@@ -22,7 +22,7 @@ body{
     height: 100vh;
     overflow-x: hidden;
     color: black;
-    background-image:url(linear-black-gradient-red-3840x2160-c2-020101-3c090e-a-165-f-14.png);
+    background-image: url('../LemuelAbellana.github.io/Assets/RedandBlack.jpg');
     background-size: cover;
     background-position: center;
     overflow-y: hidden;
@@ -685,4 +685,69 @@ span{
     }
 
 }
+/* Talents Section */
+.talents-section {
+    padding: 20px;
+    margin-top: 140px;
+}
 
+.talents-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.current-talent, .talent-pursue {
+    background-color: #e08080;
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+    display: block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.current-talent h2, .talent-pursue h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.Basketball, .Fingerstyle {
+    width: 100%;
+    max-width: 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #444;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    max-width: 100px;
+}
+
+.grid-item:hover {
+    background-color: #555;
+}

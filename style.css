@@ -22,7 +22,7 @@ body{
     height: 100vh;
     overflow-x: hidden;
     color: black;
-    background-image: url('../LemuelAbellana.github.io/Assets/RedandBlack.jpg');
+    background-image: url('RedandBlack.jpg');
     background-size: cover;
     background-position: center;
     overflow-y: hidden;

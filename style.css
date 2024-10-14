@@ -769,3 +769,55 @@ th, td {
 .grid-item:hover {
     background-color: #555;
 }
+
+/*favorites*/
+
+.favorites ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    width: 75%;
+}
+
+.favorites ul li {
+    list-style: none;
+    border-top: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    margin: -1px 0;
+    transition: 0.5s;
+}
+
+
+.favorites ul li .icon{
+    font-size: 50px;
+}
+
+.favorites ul li a {
+    display: block;
+    border-right: 1px solid #ffffff;
+}
+
+.favorites ul li a span {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.favorites ul li a span:nth-child(1) {
+    width: 100px;
+    text-align: center;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    padding: 10px;
+    transition: 0.5s;
+    color: #ffffff;
+}
+
+.favorites ul li:hover a span:nth-child(1) {
+    color: #ff0000;
+}
+
+    

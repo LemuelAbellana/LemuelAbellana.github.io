@@ -1,70 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <title>Portfolio Website</title>
-  </head>
-  <body>
-    <header>
-      <a href="https://www.uic.edu.ph/" class="logo" target="_blank"
-        ><img src="uic-logo2.png" alt="UIC LOGO" class="uic"
-      /></a>
-      <nav>
-        <a href="index.html" class="homepage"> Home</a>
-        <a href="aboutme.html">About Me</a>
-        <a href="talents.html">Talents</a>
-        <a href="favorites.html">Favorites</a>
-        <a href="projects.html">Projects</a>
-        <a href="contact.html">Contact Me</a>
-      </nav>
-    </header>
-    <section class="home">
-      <div class="home-img">
-        <img
-          src="SENGOMZ.jpg"
-          alt="Picture of Lemuel Abellana"
-          class="SenGomz"
-        />
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <title>My Portfolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Lemuel</a>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#favorites">Favorites</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="bx bx-moon" id="darkMode-icon"></div>
+
+    <div class='bx bx-menu' id="menu-icon"></div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, I am</h3>
+      <h1>Lemuel</h1>
+      <p>My name is Lemuel G. Abellana, a 20-year-old from Davao City. I am
+        currently pursuing a Bachelor of Science in Information Technology
+        (BSIT) at the University of the Immaculate Conception</p>
+      <div class="social-media">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#"><i class='bx bxl-github'></i></a>
       </div>
-      <div class="home-content">
-        <h1 class="lems">Hi, It's <span>Lems!</span></h1>
-        <h3 class="typing-text">I'm a <span></span></h3>
-        <p class="intro">
-          My name is Lemuel G. Abellana, a 20-year-old from Davao City. I am
-          currently pursuing a Bachelor of Science in Information Technology
-          (BSIT) at the University of the Immaculate Conception
-        </p>
-        <div class="social-icons">
-          <a href="https://www.facebook.com/sen.gomz" target="_blank"
-            ><i class="fa-brands fa-facebook"></i
-          ></a>
-          <a href="https://github.com/LemuelAbellana" target="_blank"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-          <a href="https://www.instagram.com/sen_gomz/" target="_blank"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
+      <div class="htmls">
+        <a href="../LemuelAbellana.github.io/html/fashionblog/index.html" target="_blank" class="fashionblog">Fashion Blog</a>
+        <a href="../LemuelAbellana.github.io/html/recipe/index.html" target="_blank" class="recipe">Salad Recipe</a>
+        <a href="../LemuelAbellana.github.io/html/woodruff-portfolio/" target="_blank" class="woodruff">Woodruff Portfolio</a>
+      </div>
+    </div>  
+    </div>
+    <div class="profession-container">
+      <div class="profession-box">
+        <div class="profession" style="--i:0">
+          <i class='bx bx-code-alt'></i>
+          <h3>Future Web Developer</h3>
         </div>
-        <a href="html/fashionblog/index.html" class="btn" target="_blank"
-          >Fashion Blog</a
-        >
-        <a href="html/recipe/index.html" class="btn" target="_blank">Recipe</a>
-        <a href="html/woodruff/index.html" class="btn" target="_blank">Woodruff Portfolio</a>
+        <div class="profession" style="--i:1">
+          <i class='bx bxl-codepen'></i>
+          <h3>Future Software Engineer</h3>
+        </div>
+        <div class="profession" style="--i:2">
+          <i class='bx bx-data'></i>
+          <h3>Future Data Scientist</h3>
+        </div>
+        <div class="profession" style="--i:3">
+          <i class='bx bx-user-check'></i>
+          <h3>Future IT Specialist</h3>
+        </div>
+        <div class="circle"></div>
       </div>
-    </section>
-      <div class="HTMLs">
-        <h2 class="myHTMLs"><ins>HTML Activities</ins></h2>
-        <a href="html/fashionblog/index.html">Link to Fashion Blog</a>
-        <br />
-        <a href="html/recipe/index.html">Link to Recipe</a><br>
-        <a href="html/woodruff-portfolio/index.html">Link to Woodruff Portfolio</a>
+      <div class="overlay"></div>
+    </div>
+    <div class="home-img">
+      <img src="SenGomz.jpg" alt="Picture of Lemuel Abellana">
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="SenGomz2.jpg" alt="Second Picture of Lemuel">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Welcome, I'm Here to Help and Serve You</h3>
+      <p>Hi! I’m Lemuel from Davao City. I have a deep passion for technology and aim to use it to grow both personally
+        and
+        professionally. My faith in Jesus Christ guides me to live a purposeful life dedicated to serving God and
+        supporting my family. I strive to make the most of every opportunity on my path to success.I’ve held leadership
+        roles such as President of the Virtual Initiative for Building Engagement Club at UIC, NSTP Project Head, and
+        Community Extension Lead for DIGISKWELA. Currently, I represent DOST UIC CCS.</p>
+    </div>
+  </section>
+  <section class="favorites" id="favorites">
+    <h2 class="heading">My <span>Favorites</span></h2>
+    <div class="favorites-container">
+      <div class="favorites-box">
+        <i class="fa-solid fa-bowl-food"></i>
+        <h3>Favorite Food</h3>
+        <p>There are so many food that I Love. But Lechon, is my favorite among all of them. 
+          Eating Lechon allows me to have the sense of happiness since we can only eat that food 
+          when there is a celebration. On the other hand, I love eating anytype of Chicken dishes 
+          in which I prioritize the breast part of the chicken since I can gain large amount of 
+          protein in that part.
+        </p>
+        <a href="" class="btn">Read More</a>
+      </div>
+      <div class="favorites-box">
+        <i class="fa-solid fa-gamepad"></i>
+        <h3>Favorite Game</h3>
+        <p>My Favorite Game is Valorant. Ever since Valorant was released, I was able to play that game to 
+          spend my free time. In addition, that is the first game I've played ever since we've got a WiFi at
+          home during the pandemic. Playing Valorant makes me realize that I am able to compete. In addition, 
+          I can spend time with my friends as well.
+        </p>
+        <a href="" class="btn">Read More</a>
+      </div>
+      <div class="favorites-box">
+        <i class='bx bxs-basketball'></i>
+        <h3>Favorite Sport</h3>
+        <p>Playing basketball has always been a part of my life. Ever since I was a child, I was really inclined 
+          in any type of sports. However, Basketball is my favorite sport since I was inspired by the late legend 
+          Kobe Bryant due to his work-ethic and great approach in life. "Is Job Finished?" is one of his saying 
+          that constantly boosts my work-ethic to finish my tasks.
+        </p>
+        <a href="" class="btn">Read More</a>
       </div>
     </div>
-  </body>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+      <div class="skills-box">
+        <img src="html.png" alt="HTML5 LOGO">
+        <div class="skills-layer">
+          <h4>Programming in HTML</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis quam eos qui maxime labore fugit
+            numquam omnis soluta? Quod dolores earum aut ea nisi corrupti autem voluptates veritatis. Suscipit,
+            possimus?</p>
+          <a href="#"><i class='bx bxl-html5'></i></a>
+        </div>
+      </div>
+      <div class="skills-box">
+        <img src="csslogo.png" alt="CSS3 LOGO">
+        <div class="skills-layer">
+          <h4>Programming in CSS</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis quam eos qui maxime labore fugit
+            numquam omnis soluta? Quod dolores earum aut ea nisi corrupti autem voluptates veritatis. Suscipit,
+            possimus?</p>
+          <a href="#"><i class='bx bxl-css3'></i></a>
+        </div>
+      </div>
+      <div class="skills-box">
+        <img src="javascript.png" alt="Javascript LOGO">
+        <div class="skills-layer">
+          <h4>Programming in Javascript</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis quam eos qui maxime labore fugit
+            numquam omnis soluta? Quod dolores earum aut ea nisi corrupti autem voluptates veritatis. Suscipit,
+            possimus?</p>
+          <a href="#"><i class='bx bxl-javascript'></i></a>
+        </div>
+      </div>
+      <div class="skills-box">
+        <img src="java.png" alt="JAVA LOGO">
+        <div class="skills-layer">
+          <h4>Programming in Java</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis quam eos qui maxime labore fugit
+            numquam omnis soluta? Quod dolores earum aut ea nisi corrupti autem voluptates veritatis. Suscipit,
+            possimus?</p>
+          <a href="#"><i class='bx bxl-java'></i></a>
+        </div>
+      </div>
+      <div class="skills-box">
+        <img src="sql.png" alt="SQL">
+        <div class="skills-layer">
+          <h4>Programming in MySQL</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis quam eos qui maxime labore fugit
+            numquam omnis soluta? Quod dolores earum aut ea nisi corrupti autem voluptates veritatis. Suscipit,
+            possimus?</p>
+          <a href="#"><i class='bx bx-data'></i></a>
+        </div>
+      </div>
+      <div class="skills-box">
+        <img src="guitar.png" alt="Playing Guitar">
+        <div class="skills-layer">
+          <h4>Playing Guitar</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis quam eos qui maxime labore fugit
+            numquam omnis soluta? Quod dolores earum aut ea nisi corrupti autem voluptates veritatis. Suscipit,
+            possimus?</p>
+          <a href="You're Beatiful Fingerstyle.mp4" target="_blank"><i class="fa-solid fa-guitar"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="heading">My <span>Projects</span></h2>
+    <div class="projects-container">
+    <div class="project-wrapper">
+      <div class="project-box">
+        <div class="project-content">
+          <img src="book-it-now.png" alt="Book It Now">
+          <h3>Book-It-Now</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, officia? Eveniet necessitatibus animi
+            quis quibusdam debitis cupiditate saepe impedit repudiandae, quod accusamus id, consequatur consequuntur
+            similique quos. Hic, excepturi doloremque atque beatae dolores aut necessitatibus eveniet magni ipsum
+            voluptatibus. Consectetur alias voluptas commodi praesentium voluptates debitis culpa repellat iste nostrum.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  
+  <!-- Contact -->
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+    
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email Address" required>
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number" required>
+        <input type="text" placeholder="Email Subject" required>
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Created by Lemuel Abellana | 2024</p>
+    </div>
+    <div class="footer-iconTop">    
+      <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>

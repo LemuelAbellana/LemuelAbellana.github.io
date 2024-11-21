@@ -58,4 +58,4 @@ ScrollReveal({
     delay:200
 });
 
-ScrollReveal().reveal('.home-content, .heading', { orign: top });
+ScrollReveal().reveal('.home-content, .heading', { origin: top });

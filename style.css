@@ -17,6 +17,8 @@
     --main-color: #754ef9;
     --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
+    --skill-color-: rgb(255, 255, 255);
+    --icon-color-:rgb(24, 24, 24);
 }
 
 .dark-mode{
@@ -25,6 +27,9 @@
     --main-color: #bb86fc;
     --white-color: #1f1f1f;
     --shadow-color: rgba(255, 255, 255, .1);
+    --skill-color-: rgb(255, 255, 255);
+    --icon-color-:rgb(255, 255, 255);
+
 }
 
 html {
@@ -285,7 +290,7 @@ section{
     bottom: 0;
     top: 1;
     right: 0;
-    width: 39%;
+    width: 70%;
     pointer-events: none;
 }
 
@@ -414,13 +419,13 @@ span{
     box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
     overflow: hidden;
     transition: background 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
-
 }
 
 .skills-box img{
     width: 100%;
     transition: 0.5s ease;
 }
+
 
 .skills-box:hover img{
     transform: scale(1.1);
@@ -435,7 +440,7 @@ span{
     height: 100%;
     background: linear-gradient(rgba(0,0,0.1), var(--main-color));
     opacity: 0;
-    color: var(--white-color);
+    color: var(--skill-color-);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -444,6 +449,9 @@ span{
     padding: 0 4rem;
     transition: .5 ease;
 }
+
+
+
 .skills-box:hover .skills-layer{
     opacity: 0.55;
 }
@@ -468,7 +476,7 @@ span{
 
 .skills-layer a i{
     font-size: 2rem;
-    color: #333;
+    color: var(--icon-color-);
 }
 
 .project-container{
@@ -608,6 +616,12 @@ span{
     .home .profession-container .overlay {
         right: -12rem; 
     }
+    
+    .home .img {
+        margin-top: 2rem; /* Add margin to prevent overlapping */
+        position: relative; /* Ensure the image follows the document flow */
+        z-index: 1; /* Ensure it's above other elements if necessary */
+    }
 }
 
 /* Medium devices (1024px and below) */
@@ -626,6 +640,12 @@ span{
 
     .home .profession-container .overlay {
         right: -15rem;
+    }
+
+    .home .img {
+        margin-top: 2rem;
+        position: relative;
+        z-index: 1;
     }
 }
 
@@ -663,12 +683,17 @@ span{
     .contact {
         min-height: auto; 
     }
-    }
 
     .footer {
         padding: 2rem 3%;
     }
 
+    .home .img {
+        margin-top: 2rem;
+        position: relative;
+        z-index: 1;
+    }
+}
 
 /* Extra small devices (768px and below) */
 @media (max-width: 768px) {
@@ -737,14 +762,12 @@ span{
         width: 100%;
     }
 
-   
     .home .profession-box .profession {
         padding: 0 13px;
         left: auto;
         transform-origin: 0;
     }
 
-  
     .home .profession-box .profession:nth-child(1) {
         transform: rotate(-90deg) translate(-120px, -210px);
     }
@@ -761,7 +784,6 @@ span{
         transform: rotate(180deg) translate(-220px, -335px);
     }
 
-   
     .home .profession-box .circle {
         position: fixed;
         width: 670px; 
@@ -776,6 +798,16 @@ span{
         right: 0;
         transform: rotate(90deg) translate(-50%, 50%) scaleY(3); 
         border-width: 23.9rem; 
+    }
+
+    .home .img {
+        margin-top: 2rem;
+        position: relative;
+        z-index: 1;
+    }
+
+    .project-content img {
+        width: 100%;
     }
 }
 
@@ -808,6 +840,12 @@ span{
 
     .home .profession-container .overlay {
         right: -18rem; 
+    }
+
+    .home .img {
+        margin-top: 2rem;
+        position: relative;
+        z-index: 1;
     }
 
     .navbar a {
@@ -853,6 +891,12 @@ span{
         right: -25rem; 
     }
 
+    .home .img {
+        margin-top: 2rem;
+        position: relative;
+        z-index: 1;
+    }
+
     .navbar a {
         font-size: 1.6rem; 
         margin: 2rem 0; 
@@ -863,7 +907,7 @@ span{
     }
 
     .footer {
-        padding: 1rem 2%;
+        padding: 1rem 2%; 
     }
 }
 
@@ -903,6 +947,12 @@ span{
 
     .home .profession-container .overlay {
         right: -30rem; 
+    }
+
+    .home .img {
+        margin-top: 2rem;
+        position: relative;
+        z-index: 1;
     }
 
     .navbar a {
